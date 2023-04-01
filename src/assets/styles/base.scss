@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Mukta:700");
+@import "@/assets/styles/theming";
+
+html,
+body,
+#app-mount {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  // background-color: $dark-background-tertiary;
+  background-color: black;
+  // overflow: hidden;
+  // font-family: t($font-dmsans);
+  font-family: Mukta;
+}
