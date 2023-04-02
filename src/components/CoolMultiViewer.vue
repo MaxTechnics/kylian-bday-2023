@@ -28,13 +28,17 @@ defineProps<{
 .slotA-enter-active,
 .slotA-leave-active {
     transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    position: fixed;
+    overflow: hidden;
 }
 
 .slotB-enter-active,
 .slotB-leave-active {
     // position: ;
     transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    position: fixed;
     z-index: 10;
+    overflow: hidden;
 }
 .slotA-enter-from, .slotA-leave-to {
     opacity: 0 !important;
