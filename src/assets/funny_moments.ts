@@ -8,7 +8,7 @@ import fork_apr27 from '@/assets/discord/weboptimized/Fortnite   2020-04-27 14-4
 import onepump_18_mei_2020 from '@/assets/discord/weboptimized/18mei2020onepump_w.mp4';
 import fork_may20 from '@/assets/discord/weboptimized/Fortnite   2020-05-20 00-19-26_EDIT.mp4';
 import keyboard_27052020 from '@/assets/discord/weboptimized/270520200519keyboard_w.webp';
-import keyboard_27052020_fallback from '@/assets/discord/270520200519keyboard_w.png';
+import keyboard_27052020_fallback from '@/assets/weboptimized/discord/270520200519keyboard_w.png';
 import fork_jun3 from '@/assets/discord/weboptimized/Fortnite   2020-06-03 00-40-29_EDIT.mp4';
 import fork_jun3_2 from '@/assets/discord/weboptimized/Fortnite   2020-06-03 00-48-34_EDIT.mp4';
 import fork_jun18 from '@/assets/discord/weboptimized/Fortnite   2020-06-18 09-41-11_EDIT2.mp4';
@@ -48,14 +48,19 @@ import forklift from '@/assets/discord/weboptimized/forklift_w.webp';
 import forklift_fallback from '@/assets/discord/weboptimized/forklift_w.png';
 import velocity from '@/assets/discord/weboptimized/velocity_w.webp';
 import velocity_fallback from '@/assets/discord/weboptimized/velocity_w.png';
+import fork_feb3 from '@/assets/discord/weboptimized/Fortnite   2021-02-03 00-43-28_EDIT.mp4';
 import parents from '@/assets/discord/weboptimized/parents_w.webp';
 import parents_fallback from '@/assets/discord/weboptimized/parents_w.png';
 import mindere from '@/assets/discord/weboptimized/nitro_oof_w.webp';
 import mindere_fallback from '@/assets/discord/weboptimized/nitro_oof_w.png';
+import fork_feb8 from '@/assets/discord/weboptimized/Fortnite   2021-02-08 11-43-07_EDIT.mp4';
+import fork_feb20 from '@/assets/discord/weboptimized/Fortnite   2021-02-20 00-34-01_EDIT.mp4';
+import fork_feb28 from '@/assets/discord/weboptimized/Fortnite   2021-02-28 23-58-59_EDIT.mp4';
 import dub from '@/assets/discord/weboptimized/dub_w.webp';
 import dub_fallback from '@/assets/discord/weboptimized/dub_w.png';
 import sleepissue from '@/assets/discord/weboptimized/sleepissue_w.webp';
 import sleepissue_fallback from '@/assets/discord/weboptimized/sleepissue_w.png';
+import fork_apr2 from '@/assets/discord/weboptimized/Fortnite   2021-04-02 17-31-36_EDIT.mp4';
 import learninggrappleshot from '@/assets/discord/weboptimized/learninggrappleshot_w.mp4';
 import haitch from '@/assets/discord/weboptimized/haitch_w.webp';
 import haitch_fallback from '@/assets/discord/weboptimized/haitch_w.jpg';
@@ -423,6 +428,13 @@ const funnies: FunnyMoment[] = [
         source: 'https://discord.com/channels/@me/704322003208765530/801015627313184778'
     },
     {
+        type: 'video',
+        date: '03 Februari 2021, 00:43',
+        title: 'Commited alt+f4',
+        description: '',
+        url: fork_feb3
+    },
+    {
         type: 'image',
         date: '04 Februari 2021, 16:58',
         title: 'Parents',
@@ -439,6 +451,27 @@ const funnies: FunnyMoment[] = [
         source: 'https://discord.com/channels/@me/704322003208765530/808452977882038352'
     },
     {
+        type: 'video',
+        date: '08 Februari 2021, 23:43',
+        title: 'No way dat we dit winnen...',
+        description: '*wins*',
+        url: fork_feb8
+    },
+    {
+        type: 'video',
+        date: '20 Februari 2021, 00:34',
+        title: 'Vroeger was het toch veel gemakkelijker',
+        description: '',
+        url: fork_feb20
+    },
+    {
+        type: 'video',
+        date: '28 Februari 2021, 23:58',
+        title: 'Moeder heeft gelijk',
+        description: '',
+        url: fork_feb28
+    },
+    {
         type: 'image',
         date: '02 Maart 2021, 13:08',
         title: 'See, there, the storm she comes.',
@@ -453,6 +486,13 @@ const funnies: FunnyMoment[] = [
         description: 'Een van de eerste sleep issues van mij.',
         url: sleepissue,
         source: 'https://discord.com/channels/@me/704322003208765530/817567176252325938'
+    },
+    {
+        type: 'video',
+        date: '02 April 2021, 17:31',
+        title: 'Playstation loho',
+        description: '',
+        url: fork_apr2
     },
     {
         type: 'video',
