@@ -1,35 +1,39 @@
 <template>
-	<div class="container">
-		<div class="timeline">
-			<ul>
-				<li v-for="funny in funnies" :key="funny.title">
-					<div class="timeline-content">
-						<h3 class="date">{{ funny.date }}</h3>
-						<h1>{{ funny.title }}</h1>
-						<p>{{ funny.description }}</p>
-						<!-- <img v-if="funny.type === 'image'" :src="funny.url" /> -->
-						<picture v-if="funny.type === 'image'">
-							<source :srcset="funny.url">
-							<source v-if="funny.fallback" :srcset="funny.fallback">
-							<img v-if="funny.fallback" :src="funny.fallback">
-							<img v-else :src="funny.url">
-						</picture>
-						<video v-if="funny.type === 'video'" :src="funny.url" controls />
-					</div>
-				</li>
-			</ul>
-		</div>
-		<div class="final">
-			<h1>Slot</h1>
-			<p>Slot</p>
-		</div>
-	</div>
-	<LightBox />
+  <div class="container">
+    <div class="timeline">
+      <ul>
+        <li v-for="funny in funnies" :key="funny.title">
+          <div class="timeline-content">
+            <h3 class="date">{{ funny.date }}</h3>
+            <h1>{{ funny.title }}</h1>
+            <p>{{ funny.description }}</p>
+            <!-- <img v-if="funny.type === 'image'" :src="funny.url" /> -->
+            <picture class="preview" v-if="funny.type === 'image'" @click="activeItem = funny">
+              <source :srcset="funny.url">
+              <source v-if="funny.fallback" :srcset="funny.fallback">
+              <img v-if="funny.fallback" :src="funny.fallback">
+              <img v-else :src="funny.url">
+            </picture>
+            <video class="preview" v-if="funny.type === 'video'" :src="funny.url" @click="activeItem = funny" />
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="final">
+      <h1>Slot</h1>
+      <p>Slot</p>
+    </div>
+  </div>
+  <LightBox :item="activeItem" @close="activeItem = undefined" />
 </template>
 
 <script setup lang="ts">
 import { funnies } from '@/assets/funny_moments';
 import LightBox from './LightBox.vue';
+import { ref } from 'vue';
+
+// eslint-disable-next-line no-undef
+const activeItem = ref<FunnyMoment | undefined>(undefined);
 </script>
 
 <style lang="scss" scoped>
@@ -41,8 +45,12 @@ import LightBox from './LightBox.vue';
   padding: 0;
   box-sizing: border-box;
   transition: all 0.5s ease;
-
 }
+
+.preview {
+  cursor: pointer;
+}
+
 html {
   font-family: "Montserrat";
 }
