@@ -93,7 +93,7 @@ import fork_aug19 from '@/assets/discord/weboptimized/Fortnite   2021-08-19 16-0
 import fork_aug23 from '@/assets/discord/weboptimized/Fortnite   2021-08-23 01-16-00_EDIT.mp4';
 import kris from '@/assets/discord/weboptimized/kris_w.webp';
 import kris_fallback from '@/assets/discord/weboptimized/kris_w.png';
-import fork_sep12 from '@/assets/discord/weboptimized/Fortnite   2021-09-12 21-44-33_EDIT_EDIT.mp4';
+import fork_sep12 from '@/assets/discord/weboptimized/Fortnite   2021-09-12 21-44-33_EDIT.mp4';
 import otherbolt from '@/assets/discord/weboptimized/otherbolt_w.mp4';
 import roots from '@/assets/discord/weboptimized/roots_w.webp';
 import roots_fallback from '@/assets/discord/weboptimized/roots_w.png';
