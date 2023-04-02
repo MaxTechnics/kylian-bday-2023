@@ -34,10 +34,14 @@ import LightBox from './LightBox.vue';
 
 <style lang="scss" scoped>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+@import '@/assets/styles/theming';
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 0.5s ease;
+
 }
 html {
   font-family: "Montserrat";
@@ -132,7 +136,8 @@ h1 {
 	width: 8px;
     height: 100%;
     // background-color: gray;
-	background-color: rgba(255, 255, 255, 0.5);
+	// background-color: rgba(255, 255, 255, 0.5);
+	background: $test;
 	backdrop-filter: blur(10px);
   }
   .timeline ul li {
@@ -161,7 +166,7 @@ h1 {
     width: 30px;
     border-radius: 50%;
     // background-color: gray;
-    background-color: rgba(255, 255, 255, 0.2);
+    background: $text-normal;
     top: 0px;
   }
   .timeline ul li:nth-child(odd)::before {
@@ -178,7 +183,7 @@ h1 {
   }
   .timeline ul li:hover::before {
     // background-color: aqua;
-	background-color: white;
+	background: $text-normal;
   }
 
   .final {
