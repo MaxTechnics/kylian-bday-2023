@@ -7,10 +7,11 @@ import fork_mar30 from '@/assets/discord/weboptimized/Fortnite   2020-03-30 00-2
 import fork_apr27 from '@/assets/discord/weboptimized/Fortnite   2020-04-27 14-45-23_EDIT.mp4';
 import onepump_18_mei_2020 from '@/assets/discord/weboptimized/18mei2020onepump_w.mp4';
 import fork_may20 from '@/assets/discord/weboptimized/Fortnite   2020-05-20 00-19-26_EDIT.mp4';
-import keyboard_27052020 from '@/assets/discord//weboptimized/270520200519keyboard_w.webp';
+import keyboard_27052020 from '@/assets/discord/weboptimized/270520200519keyboard_w.webp';
 import keyboard_27052020_fallback from '@/assets/discord/270520200519keyboard_w.png';
 import fork_jun3 from '@/assets/discord/weboptimized/Fortnite   2020-06-03 00-40-29_EDIT.mp4';
 import fork_jun3_2 from '@/assets/discord/weboptimized/Fortnite   2020-06-03 00-48-34_EDIT.mp4';
+import fork_jun18 from '@/assets/discord/weboptimized/Fortnite   2020-06-18 09-41-11_EDIT2.mp4';
 import drifting from '@/assets/discord/weboptimized/20200619_115751_w.mp4';
 import trailerbug from '@/assets/discord/weboptimized/07032020trailer_w.webp';
 import trailerbug_fallback from '@/assets/discord/weboptimized/07032020trailer_w.png';
@@ -18,12 +19,19 @@ import fork_jul1 from '@/assets/discord/weboptimized/Fortnite   2020-07-01 01-28
 import fork_jul1_2 from '@/assets/discord/weboptimized/Fortnite   2020-07-01 01-59-14_EDIT.mp4';
 import bots from '@/assets/discord/weboptimized/09072020bots_w.webp';
 import bots_fallback from '@/assets/discord/weboptimized/09072020bots_w.png';
+import fork_jul18 from '@/assets/discord/weboptimized/Fortnite   2020-07-18 02-03-57_EDIT.mp4';
 import blitzkrieg from '@/assets/discord/weboptimized/blitzkrieg_w.webp';
 import blitzkrieg_fallback from '@/assets/discord/weboptimized/blitzkrieg_w.png';
 import croque from '@/assets/discord/weboptimized/croque_w.webp';
+import fork_aug9 from '@/assets/discord/weboptimized/Fortnite   2020-08-09 17-33-21_EDIT.mp4';
+import fork_aug9_2 from '@/assets/discord/weboptimized/Fortnite   2020-08-09 19-13-30_EDIT.mp4';
 import croque_fallback from '@/assets/discord/weboptimized/croque_w.png';
 import dora from '@/assets/discord/weboptimized/dora_w.webp';
 import dora_fallback from '@/assets/discord/weboptimized/dora_w.png';
+import fork_aug27 from '@/assets/discord/weboptimized/Fortnite   2020-08-27 00-59-09_EDIT.mp4';
+import fork_nov12 from '@/assets/discord/weboptimized/Fortnite   2020-11-12 01-57-08_EDIT.mp4';
+import fork_nov26 from '@/assets/discord/weboptimized/Fortnite   2020-11-26 22-15-17_EDIT.mp4';
+import fork_dec5 from '@/assets/discord/weboptimized/Fortnite   2020-12-05 23-20-51_Trim_EDIT.mp4';
 import grammergiftging from '@/assets/discord/weboptimized/grammergifting_w.webp';
 import grammergiftging_fallback from '@/assets/discord/weboptimized/grammergifting_w.png';
 import mcr from '@/assets/discord/weboptimized/jp_w.webp';
@@ -33,6 +41,7 @@ import alex_fallback from '@/assets/discord/weboptimized/alex_w.png';
 import candy from '@/assets/discord/weboptimized/candy_w.webp';
 import candy_fallback from '@/assets/discord/weboptimized/candy_w.png';
 import pump from '@/assets/discord/weboptimized/pump_w.mp4';
+import fork_dec25 from '@/assets/discord/weboptimized/Fortnite   2020-12-25 19-47-31_EDIT.mp4';
 import solofncs from '@/assets/discord/weboptimized/solo_w.webp';
 import solofncs_fallback from '@/assets/discord/weboptimized/solo_w.png';
 import forklift from '@/assets/discord/weboptimized/forklift_w.webp';
@@ -224,13 +233,13 @@ const funnies: FunnyMoment[] = [
         description: '',
         url: fork_jun3_2
     },
-    // {
-    //     type: 'video',
-    //     date: '18 Juni 2020, 09:41',
-    //     title: 'Teamwork?!',
-    //     description: 'Een van de weinige keren dat ik fatsoenlijk kon teamworken.............',
-    //     url: TODO
-    // },
+    {
+        type: 'video',
+        date: '18 Juni 2020, 09:41',
+        title: 'Teamwork?!',
+        description: 'Een van de weinige keren dat ik fatsoenlijk kon teamworken.............',
+        url: fork_jun18
+    },
     {
         type: 'video',
         date: '19 Juni 2020, 11:59',
@@ -270,6 +279,13 @@ const funnies: FunnyMoment[] = [
         source: 'https://discord.com/channels/@me/704322003208765530/730830350699200632'
     },
     {
+        type: 'video',
+        date: '18 Juli 2020, 02:03',
+        title: 'Dat is \'m niet gewoon.',
+        description: '<3 combat!',
+        url: fork_jul18
+    },
+    {
         type: 'image',
         date: '20 Juli 2020, 19:36',
         title: 'Blitzkrieg',
@@ -290,6 +306,14 @@ const funnies: FunnyMoment[] = [
         date: '09 Augustus 2020, 17:33',
         title: '0 kill win',
         description: '',
+        url: fork_aug9
+    },
+    {
+        type: 'video',
+        date: '09 Augustus 2020, 19:13',
+        title: 'Controller moment',
+        description: '',
+        url: fork_aug9_2
     },
     {
         type: 'image',
@@ -298,6 +322,34 @@ const funnies: FunnyMoment[] = [
         description: 'Dora de stoeph----',
         url: dora,
         source: 'https://discord.com/channels/@me/704322003208765530/745770475342528563'
+    },
+    {
+        type: 'video',
+        date: '27 Augustus 2020, 00:59',
+        title: 'Hoe kan dat zelf?',
+        description: '',
+        url: fork_aug27
+    },
+    {
+        type: 'video',
+        date: '12 November 2020, 01:57',
+        title: 'Casual',
+        description: '',
+        url: fork_nov12
+    },
+    {
+        type: 'video',
+        date: '26 November 2020, 22:15',
+        title: 'Room temperature IQ',
+        description: '',
+        url: fork_nov26
+    },
+    {
+        type: 'video',
+        date: '05 December 2020, 23:20',
+        title: '*does not scope*',
+        description: '',
+        url: fork_dec5
     },
     {
         type: 'image',
@@ -338,6 +390,13 @@ const funnies: FunnyMoment[] = [
         description: '',
         url: pump,
         source: 'https://discord.com/channels/@me/704322003208765530/792066976682868736'
+    },
+    {
+        type: 'video',
+        date: '25 December 2020, 19:47',
+        title: 'What?',
+        description: '',
+        url: fork_dec25
     },
     {
         type: 'image',
