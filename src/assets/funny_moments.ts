@@ -15,6 +15,7 @@ import drifting from '@/assets/discord/weboptimized/20200619_115751_w.mp4';
 import trailerbug from '@/assets/discord/weboptimized/07032020trailer_w.webp';
 import trailerbug_fallback from '@/assets/discord/weboptimized/07032020trailer_w.png';
 import fork_jul1 from '@/assets/discord/weboptimized/Fortnite   2020-07-01 01-28-48_EDIT.mp4';
+import fork_jul1_2 from '@/assets/discord/weboptimized/Fortnite   2020-07-01 01-59-14_EDIT.mp4';
 import bots from '@/assets/discord/weboptimized/09072020bots_w.webp';
 import bots_fallback from '@/assets/discord/weboptimized/09072020bots_w.png';
 import blitzkrieg from '@/assets/discord/weboptimized/blitzkrieg_w.webp';
@@ -239,19 +240,26 @@ const funnies: FunnyMoment[] = [
         source: 'https://discord.com/channels/@me/704322003208765530/723476951620386919'
     },
     {
+        type: 'video',
+        date: '01 Juli 2020, 01:28',
+        title: 'Sniper God',
+        description: '',
+        url: fork_jul1
+    },
+    {
+        type: 'video',
+        date: '01 Juli 2020, 01:59',
+        title: 'Disbelief',
+        description: 'Niet te geloven dat wij eindelijk eens winnen.',
+        url: fork_jul1_2
+    },
+    {
         type: 'image',
         date: '03 Juli 2020, 13:03',
         title: 'Replay cinamatic?',
         description: 'Remember that one?',
         url: trailerbug,
         source: 'https://discord.com/channels/@me/704322003208765530/728566576953163786'
-    },
-    {
-        type: 'video',
-        date: '01 Juli 2020, 01:28',
-        title: 'Sniper God',
-        description: '',
-        url: fork_jul1
     },
     {
         type: 'image',
@@ -276,6 +284,12 @@ const funnies: FunnyMoment[] = [
         description: '"One day i will play the game for the shits of it" - Maxim, 2020',
         url: croque,
         source: 'https://discord.com/channels/@me/704322003208765530/737359082457006234'
+    },
+    {
+        type: 'video',
+        date: '09 Augustus 2020, 17:33',
+        title: '0 kill win',
+        description: '',
     },
     {
         type: 'image',
