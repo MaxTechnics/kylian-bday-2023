@@ -8,7 +8,7 @@ import fork_apr27 from '@/assets/discord/weboptimized/Fortnite   2020-04-27 14-4
 import onepump_18_mei_2020 from '@/assets/discord/weboptimized/18mei2020onepump_w.mp4';
 import fork_may20 from '@/assets/discord/weboptimized/Fortnite   2020-05-20 00-19-26_EDIT.mp4';
 import keyboard_27052020 from '@/assets/discord/weboptimized/270520200519keyboard_w.webp';
-import keyboard_27052020_fallback from '@/assets/weboptimized/discord/270520200519keyboard_w.png';
+import keyboard_27052020_fallback from '@/assets/discord/weboptimized/270520200519keyboard_w.png';
 import fork_jun3 from '@/assets/discord/weboptimized/Fortnite   2020-06-03 00-40-29_EDIT.mp4';
 import fork_jun3_2 from '@/assets/discord/weboptimized/Fortnite   2020-06-03 00-48-34_EDIT.mp4';
 import fork_jun18 from '@/assets/discord/weboptimized/Fortnite   2020-06-18 09-41-11_EDIT2.mp4';
@@ -67,7 +67,7 @@ import haitch_fallback from '@/assets/discord/weboptimized/haitch_w.jpg';
 import fridge from '@/assets/discord/weboptimized/fridge_w.mp4';
 import santos from '@/assets/discord/weboptimized/santos.mp4';
 import struggles from '@/assets/discord/weboptimized/struggles_w.mp4';
-import struggles2 from '@/assets/discord/weboptimized/struggles2.mp4';
+import struggles2 from '@/assets/discord/weboptimized/struggles2_w.mp4';
 import deagle from '@/assets/discord/weboptimized/deagle_w.mp4';
 import bolt from '@/assets/discord/weboptimized/bolt_w.mp4';
 import addiction from '@/assets/discord/weboptimized/addiction_w.webp';
