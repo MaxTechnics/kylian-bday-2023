@@ -15,13 +15,17 @@
               <img v-else :src="funny.url">
             </picture>
             <video class="preview" v-if="funny.type === 'video'" :src="funny.url" @click="activeItem = funny" />
+            <p v-if="funny.source"><a :href="funny.source" target="_blank">Bekijken in bron/context</a></p>
           </div>
         </li>
       </ul>
     </div>
     <div class="final">
-      <h1>Slot</h1>
-      <p>Slot</p>
+      <h1>Einde(lijk)</h1>
+      <p>Het is verdacht moeilijk om 4 jaar chats in te korten. Minstens 55K berichten en een 3000-tal game captures is niet niks.<br>
+        En toch is er een hele hoop veranderd. Ik heb enorm gelachen toen ik door heel de geschiedenis scrollde, en hopelijk is dat voor u hetzelfde.<br>
+        Windows gamebar heeft hellaas niet bij elke capture mijn mic opgenomen, maar ik besefte nooit echt juist hoe slect die was....<br>
+        Anyway, op naar de volgende jaren!</p>
     </div>
   </div>
   <LightBox :item="activeItem" @close="activeItem = undefined" />
@@ -114,6 +118,11 @@ h1 {
   line-height: 30px;
   font-weight: 300;
 }
+
+a {
+  color: $text-normal;
+}
+
 .timeline-content .date {
   font-size: 12px;
   font-weight: 300;
