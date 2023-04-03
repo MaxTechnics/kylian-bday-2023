@@ -1,7 +1,6 @@
 <template>
     <Transition name="lightboxfade">
         <div v-if="item !== undefined" class="lightbox">
-            <div v-if="item !== undefined" class="backdrop" @click="emits('close')"></div>
             <picture v-if="item?.type === 'image'">
                 <source :srcset="item.url">
                 <source v-if="item.fallback" :srcset="item.fallback">
@@ -9,16 +8,21 @@
                 <img v-else :src="item.url">
             </picture>
             <video v-if="item?.type === 'video'" :src="item.url" controls autoplay />
+            <div v-if="item !== undefined" class="backdrop" @click="emits('close')"></div>
         </div>
     </Transition>
 </template>
 
 <script setup lang="ts">
+import { onKeyDown } from '@vueuse/core';
+
 defineProps<{
     // open: boolean;
     // eslint-disable-next-line no-undef
     item?: FunnyMoment;
 }>();
+
+onKeyDown('Escape', () => emits('close'));
 
 const emits = defineEmits(['close'])
 </script>
@@ -48,19 +52,39 @@ const emits = defineEmits(['close'])
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 100;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-picture, video, img {
-    max-width: 80vh;
-    max-height: 80vh;
-    z-index: 200;
+.inner {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 95vh;
+    // box-sizing: border-box;
+    // object-fit: cover;
+}
+
+video, img {
+    max-width: 95vw;
+    max-height: 95vh;
     border-radius: 1em;
+    z-index: 200;
+    // margin: 2.5vw 2.5vh 2.5vw;
+    margin: 2em;
+    height: 100vh;
+    object-fit: contain;
+}
+
+picture {
+    z-index: 200;
+
 }
 
 .backdrop {
